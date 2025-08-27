@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore data except tracked by DVC
+data/*.csv
+!data/*.dvc
+!data/.gitignore
+
+# Ignore MLflow artifacts (they can be pushed to Dagshub instead)
+mlruns/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
