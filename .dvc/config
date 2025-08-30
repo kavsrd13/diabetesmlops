@@ -1,2 +1,4 @@
+[core]
+    remote = origin
 ['remote "origin"']
     url = https://dagshub.com/krishna.dwivedi1618/diabetes-mlops.dvc

@@ -1,0 +1,10 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - train.py
+      - data/diabetes.csv
+    outs:
+      - models/best_model.pkl
+    metrics:
+      - reports/train_metrics.json

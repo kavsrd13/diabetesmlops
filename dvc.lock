@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - path: data/diabetes.csv
+      hash: md5
+      md5: 9f11a71594d7fe3817ade1f00fbedaa0
+      size: 1114
+    - path: train.py
+      hash: md5
+      md5: 38cb39cd47bdb9842679983f5c430636
+      size: 1449
+    outs:
+    - path: models/best_model.pkl
+      hash: md5
+      md5: 5fb417775edae02176ee62ae9354a11a
+      size: 83379
+    - path: reports/train_metrics.json
+      hash: md5
+      md5: 31daa090ef23c0b5782e38564a1e1bc2
+      size: 212

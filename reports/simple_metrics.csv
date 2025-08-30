@@ -1,0 +1,2 @@
+age_train_mean,age_inference_mean,age_mean_diff,gender_train_mean,gender_inference_mean,gender_mean_diff,blood_pressure_train_mean,blood_pressure_inference_mean,blood_pressure_mean_diff,BMI_train_mean,BMI_inference_mean,BMI_mean_diff,train_pred_dist,inference_pred_dist
+43.68,82.07142857142857,38.39142857142857,0.68,0.5714285714285714,0.10857142857142865,131.5,157.14285714285714,25.64285714285714,28.363999999999997,28.5,0.13600000000000279,"{0: 0.88, 1: 0.12}","{0: 0.9285714285714286, 1: 0.07142857142857142}"
